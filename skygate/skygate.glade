@@ -1634,6 +1634,7 @@ items such as your callsign for the live map</property>
                 <items>
                   <item translatable="yes">0 - Slow</item>
                   <item translatable="yes">1 - Fast</item>
+                  <item translatable="yes">3 - S-Fast</item>
                 </items>
               </object>
               <packing>

@@ -192,6 +192,8 @@ class LoRa(Radio):
 			self.SetLoRaParameters(IMPLICIT_MODE, ERROR_CODING_4_5, BANDWIDTH_20K8, SPREADING_6, False)
 		elif Mode == 2:
 			self.SetLoRaParameters(EXPLICIT_MODE, ERROR_CODING_4_8, BANDWIDTH_62K5, SPREADING_8, False)
+		elif Mode == 3:
+			self.SetLoRaParameters(EXPLICIT_MODE, ERROR_CODING_4_6, BANDWIDTH_250K, SPREADING_7, False)
 		
 	def SetStandardLoRaParameters(self, Mode):
 		self.Mode = Mode
